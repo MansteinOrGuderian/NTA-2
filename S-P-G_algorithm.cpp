@@ -3,8 +3,8 @@
 #include <vector>
 #include <set>
 #include <algorithm>
-#include <windows.h>
 #include <numeric>
+//#include <windows.h>
 
 using namespace std;
 
@@ -147,9 +147,9 @@ int chineseRemainderTheorem(const vector<pair<int, int>>& congruences, int n) {
 }
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    //SetConsoleOutputCP(CP_UTF8);
+    //SetConsoleCP(1251);
+    //SetConsoleOutputCP(1251);
 
     long long n, a, b;
 
